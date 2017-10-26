@@ -1,0 +1,18 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
+		
+	* Objects
+	* Properties
+	* Methods
+	* for in loop
+	* Dot notation vs bracket notation
+
+
+Objects - Objects are like variables in that they hold values, they can just hold many values and store them as key : value pairs , seperated by a colon. (.ie key: value, dogBreed: goldenRetriever).
+
+Properties - Properties are the key part of the object value pair. In the previus example the property would be dogBreed.
+
+Methods - Methods are functions or blocks of code that are given to properties in an object. So building on the dog object, a method may have the property name of bark. So it may be written like bark: functions() { console.log('Roof!')}. If the object was dog you would call the method by typing dog.bark(); 
+
+For in Loop - The for in loop is just like a for loop except it will loop through the properties of an object. So in the previous example of a dog object, you would say for x in dog {} . The x variable can be anything, it is just a placeholder for the property each time it goes through the loop of the object. So if you wanted to print out each property you could have. for (var x in dog) {console.log (x);} and it would print out each property. 
+
+Dot Notation vs bracket notation - Both these are ways to access the values of the key : value pair in the object. Most times you will want to use the dot notation like dog.dogBreed would be goldenRetreiver. This works great if you know the property name, and it is a value that works. Sometimes you will be in a situation where you aren't going to know what the property name is, perhaps when use a for in loop. Dot notation only works if you use the exact name of the property, it won't work with variables or numbers. 
